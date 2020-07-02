@@ -1,0 +1,92 @@
+body{
+  max-width: 700px;
+  min-width: 250px;
+  background-color: rgba(205, 134, 63, 0.349);
+}
+
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+header{
+    display: block;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(4, 4, 252, 0.966);
+    color: rgba(255, 255, 255, 0.979);
+    margin-top: 0;
+    font-size: 25px;
+  animation-name: header;
+  animation-duration: 4s;}
+
+    @keyframes header {
+        from {background-color:rgba(4, 4, 252, 0.966);}
+        to {background-color: rgb(255, 0, 0);}
+      }
+
+      .foto img{
+           border-radius: 50%;
+           display: block;
+           border: red solid 2px;
+           width: 90%;
+      }
+
+       #titulofijo, .servicio{
+        margin-bottom: 40px;
+        background-color: rgba(209, 150, 62, 0.603);
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+      .contacto{
+        display: block;
+        text-align: center;
+      }
+
+      #titulofijo{
+        display: block;
+        background-color: rgba(0, 0, 0, 0.199);
+        width: 90%;
+        height: 50px;
+        padding: 8px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    footer{
+      text-align: center;
+      margin-bottom: 100px;
+      margin-top: 50px;
+      right: 0;
+      width: 100%;
+      border: 1px dotted rgb(241, 37, 10);
+  }
+  .icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: rgba(222, 184, 135, 0.5);
+  }
+  .icon-bar i {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: rgb(20, 3, 248);
+    font-size: 30px;
+  }
+  .icon-bar i:hover {
+    background-color: rgba(175, 34, 34, 0.459);
+  }
+
+  .servicio{
+
+  }
